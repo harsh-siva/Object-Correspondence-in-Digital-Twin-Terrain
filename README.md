@@ -1,12 +1,12 @@
 # Object Correspondence in Digital-Twin Terrain Using PX4 Autopilot
 
-## 📌 Project Aim
+## Project Aim
 Simulated and analyzed object correspondence in a custom terrain using a PX4-based UAV.  
 The drone detects, localizes, and tracks specific rocks across multiple environments to study displacement caused by hypothetical events (e.g., natural calamities).
 
 ---
 
-## 🎯 Motivation
+## Motivation
 This work mimics challenges faced in planetary exploration:
 - Monitoring remote sites  
 - Detecting environmental changes  
@@ -14,7 +14,7 @@ This work mimics challenges faced in planetary exploration:
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 
 ### Terrain Modeling
 - Captured real-world images → processed in **Meshroom** for 3D reconstruction  
@@ -33,7 +33,7 @@ This work mimics challenges faced in planetary exploration:
 
 ---
 
-## 🚀 Highlights
+## Highlights
 - ✅ >90% detection accuracy with YOLOv8 on test images  
 - ✅ Localization precision: error ~0.1–0.2m  
 - ✅ Efficient simulation: Gazebo loads optimized terrain in <15s  
@@ -41,14 +41,14 @@ This work mimics challenges faced in planetary exploration:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 - No SLAM → odometry drift remains  
 - Manual rock correspondence across environments  
 - Assumes static camera-drone calibration  
 
 ---
 
-## 🔮 Future Directions
+## Future Directions
 - Integrate **ORB-SLAM3/Cartographer** for drift correction  
 - Automate rock matching with nearest-neighbor algorithms  
 - Deploy **ArUco markers** for calibration  
@@ -57,6 +57,6 @@ This work mimics challenges faced in planetary exploration:
 
 ---
 
-## 📖 Takeaway
+## Takeaway
 This project demonstrates a full end-to-end pipeline bridging **AI vision models with robotics simulation**.  
 It lays the groundwork for **autonomous planetary exploration** and **long-term environmental monitoring** using UAVs.
